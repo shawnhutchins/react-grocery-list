@@ -1,0 +1,7 @@
+- ^ when editing list item if you don't change the input the value it saves as an empty string
+- ^ make list title editable 
+- ^ when unfocusing from an editing input set editing back to -1
+- ^ only show the X to delete during editing
+- combine functionality of the multiple onInputChange/onKeyPress functions 
+- clean up the way you input new items 
+- think about adding check boxes to the list items instead of bullets
