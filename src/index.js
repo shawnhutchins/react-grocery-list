@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom'
 import './style.css';
 
 import List from './List'
-import ListItem from './ListItem'
 
 class App extends React.Component {
   render() {
