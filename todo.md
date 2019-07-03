@@ -1,4 +1,4 @@
-- ^ when editing list item if you don't change the input the value it saves as an empty string
+- ^ when editing empty list item if you don't change the input the value it saves as an empty string
 - ^ make list title editable 
 - ^ when unfocusing from an editing input set editing back to -1
 - ^ only show the X to delete during editing

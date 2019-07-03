@@ -34,8 +34,7 @@ export default class ListItem extends React.Component {
             ref={input => input && input.focus()}
             defaultValue={this.props.item}
             onChange={this.handleInputChange}
-            onKeyDown={this.handleKeyDown}
-            
+            onKeyDown={this.handleKeyDown}  
           />
           <button
             type='button'

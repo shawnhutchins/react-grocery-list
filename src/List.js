@@ -2,7 +2,8 @@ import React from 'react'
 
 import ListItem from './ListItem'
 
-
+//defaults for the list
+const title = 'List Title'
 const list = ['Eggs', 'Bread', 'Milk',]
 
 export default class List extends React.Component {
@@ -37,7 +38,7 @@ export default class List extends React.Component {
   }
 
   handleResetArray = () => {
-    this.setState({ list });
+    this.setState({ list, title });
   }
 
   handleInputChange = e => {
